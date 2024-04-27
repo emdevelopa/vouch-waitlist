@@ -5,7 +5,9 @@
 }
 section {
   background-image: url("https://images.unsplash.com/photo-1641790176913-5b573e7ebacd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  top: 0;
   /* background-clip: content-box; */
 
   background-color: rgba(22, 77, 46, 0.798);
@@ -76,3 +78,5 @@ button {
 button:hover {
   background-color: #00b32d;
 }
+
+/* @media (400px) */
