@@ -112,3 +112,23 @@ button:hover {
     font-size: 1em;
   }
 }
+@media (max-width: 400px) {
+  section > div {
+    padding: 10px;
+    width: 90%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .button-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+  }
+  .dateTime{
+    font-size: 16px;
+  }
+  p{
+    font-size: 0.5em;
+  }
+}
