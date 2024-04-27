@@ -12,10 +12,11 @@ section {
 
   background-color: rgba(22, 77, 46, 0.798);
   background-repeat: no-repeat;
-  background-blend-mode: darken;    
+  background-blend-mode: darken;
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -35,20 +36,30 @@ section > div {
   height: 0.2em;
 }
 
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-cont img {
+  width: 14em;
+  height: 14em;
+}
+
 h1 {
   font-size: 2em;
   margin-bottom: 10px;
   font-size: 40px;
   color: rgb(71, 198, 71);
 }
-.dateTime{
-    display: flex;
-    gap: 1em;
-    color: white;
+.dateTime {
+  display: flex;
+  gap: 1em;
+  color: white;
 }
-.dateTime div{
-    display: flex;
-    gap: 8px;
+.dateTime div {
+  display: flex;
+  gap: 8px;
 }
 
 p {
@@ -79,4 +90,17 @@ button:hover {
   background-color: #00b32d;
 }
 
-/* @media (400px) */
+@media (max-width: 500px) {
+  section > div {
+    padding: 10px;
+    width: 90%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .button-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+  }
+}
