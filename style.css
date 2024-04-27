@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  background-image: url("https://images.unsplash.com/photo-1641790176913-5b573e7ebacd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  /* background-clip: content-box; */
+
+  background-color: rgba(22, 77, 46, 0.798);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;    
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section > div {
+  text-align: left;
+  padding: 20px;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.line {
+  background-color: green;
+  width: 8em;
+  height: 0.2em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: rgb(71, 198, 71);
+}
+.dateTime{
+    display: flex;
+    gap: 1em;
+    color: white;
+}
+.dateTime div{
+    display: flex;
+    gap: 8px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: white;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 4em;
+  font-size: 1em;
+  background-color: #087722;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #00b32d;
+}
