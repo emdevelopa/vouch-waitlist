@@ -31,7 +31,7 @@ section > div {
   gap: 2em;
 }
 .line {
-  background-color: green;
+  background-color: white;
   width: 8em;
   height: 0.2em;
 }
