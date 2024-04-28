@@ -10,18 +10,19 @@ section {
   top: 0;
   /* background-clip: content-box; */
 
-  background-color: #085b49;
+  background-color: #021c16;
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 4em;
+  /* justify-content: center; */
   align-items: center;
 }
 
-section > div {
+.sub-sec {
   text-align: left;
   padding: 20px;
   /* background-color: rgba(255, 255, 255, 0.7); */
@@ -44,10 +45,12 @@ section > div {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background: #000; */
+
 }
 .logo-cont img {
-  width: 14em;
-  height: 14em;
+  width: 18em;
+  height: 6em;
 }
 
 h1 {
