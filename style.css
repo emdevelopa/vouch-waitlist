@@ -81,12 +81,17 @@ p {
   color: white;
 }
 
-input[type="text"] {
+input[type="email"] {
   border-radius: 5px;
   padding: 0.5em 1em;
   font-size: 1em;
   border: 1px solid #ccc;
 }
+#msgEl {
+  background-color: #fff;
+}
+
+
 
 button {
   padding: 10px 4em;
