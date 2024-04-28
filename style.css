@@ -10,7 +10,7 @@ section {
   top: 0;
   /* background-clip: content-box; */
 
-  background-color: rgba(33, 59, 44, 0.949);
+  background-color: #14977B;
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-size: cover;
@@ -50,7 +50,7 @@ h1 {
   font-size: 2em;
   margin-bottom: 10px;
   font-size: 40px;
-  color: rgb(71, 198, 71);
+  color: #fff;
 }
 .dateTime {
   display: flex;
