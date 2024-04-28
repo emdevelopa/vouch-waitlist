@@ -10,7 +10,7 @@ section {
   top: 0;
   /* background-clip: content-box; */
 
-  background-color: #14977B;
+  background-color: #085b49;
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-size: cover;
@@ -29,6 +29,10 @@ section > div {
   display: flex;
   flex-direction: column;
   gap: 2em;
+}
+.dateTime div  {
+  color: orange;
+
 }
 .line {
   background-color: white;
