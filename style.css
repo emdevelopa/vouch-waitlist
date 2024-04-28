@@ -100,7 +100,7 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-  section > div {
+ .sub-sec {
     padding: 10px;
     width: 90%;
   }
