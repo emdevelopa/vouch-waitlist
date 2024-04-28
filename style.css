@@ -17,7 +17,7 @@ section {
   background-position: center;
   display: flex;
   flex-direction: column;
-  gap: 4em;
+  gap: 2em;
   justify-content: center;
   align-items: center;
 }
