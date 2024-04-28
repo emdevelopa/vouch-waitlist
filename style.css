@@ -30,10 +30,10 @@ section > div {
   flex-direction: column;
   gap: 2em;
 }
-.dateTime div  {
+/* .dateTime div  {
   color: orange;
 
-}
+} */
 .line {
   background-color: white;
   width: 8em;
