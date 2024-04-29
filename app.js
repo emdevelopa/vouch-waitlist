@@ -40,6 +40,7 @@ joinWaitlistBtn.addEventListener("click", () => {
         const successMsg = "Thanks For joining our waitlist";
         msgEl.innerText = successMsg;
         msgEl.style.color = "green";
+    msgEl.style.display = "block";
 
         setTimeout(() => {
           errTimeOut();
