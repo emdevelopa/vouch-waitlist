@@ -83,18 +83,22 @@ p {
 
 input[type="email"] {
   border-radius: 5px;
-  padding: 0.5em 1em;
+  width: 40%;
+  padding: 0.8em 1em;
   font-size: 1em;
   border: 1px solid #ccc;
 }
 #msgEl {
-  background-color: #fff;
+  /* background-color: #fff; */
+  display: none;
+  margin:-1em 0 -1em 0;
+
 }
 
 
 
 button {
-  padding: 10px 4em;
+   padding: 0.8em 1em;
   font-size: 1em;
   background-color: #087722;
   color: #fff;
@@ -106,6 +110,26 @@ button {
 button:hover {
   background-color: #00b32d;
 }
+.loading-msg{
+  margin:-2em 0 -1em 0;
+  display: flex;
+}
+.loading-animation {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
 @media (max-width: 500px) {
  .sub-sec {

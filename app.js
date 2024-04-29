@@ -1,6 +1,7 @@
 const emailInput = document.getElementById("emailInput");
 const joinWaitlistBtn = document.getElementById("joinBtn");
 const msgEl = document.getElementById("msgEl");
+const loadingAnimation = document.getElementById("loadingAnimation"); // Reference to loading animation element
 
 const errTimeOut = () => {
   msgEl.innerText = "";
@@ -14,7 +15,9 @@ joinWaitlistBtn.addEventListener("click", () => {
 
     msgEl.textContent = "Please enter your email";
     msgEl.style.color = "red";
+    msgEl.style.display = "block";
   } else {
+    loadingAnimation.style.display = "block";
     const users = {
       Email: valueFromInput,
     };
@@ -45,6 +48,9 @@ joinWaitlistBtn.addEventListener("click", () => {
       })
       .catch((error) => {
         console.error(error);
+      })
+      .finally(() => {
+        loadingAnimation.style.display = "none";
       });
   }
   // console.log("hello");
